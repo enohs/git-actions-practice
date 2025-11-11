@@ -5,5 +5,5 @@ app = Flask(__name__)
 def hello_world():
     return 'hello world!'
 
-if __name__ = '__main_':
+if __name__ == '__main_':
     app.run(host='0.0.0.0', port=8001)
